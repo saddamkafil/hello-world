@@ -25,6 +25,7 @@ pipeline
         steps
 	{
 	echo "hello"
+	docker build -t saddamkafil/demo:1.10 .
         }
     }
     }
