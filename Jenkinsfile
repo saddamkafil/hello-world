@@ -22,8 +22,10 @@ pipeline
             }
         stage('build container')
         {
-        steps{
-             sh "docker build -t saddamkafil/demo:1.7 /home/ec2-user/workspace/mypipeline/webapp/target"
+        steps
+	{
+	sh echo "hello"
+#             sh "docker build -t saddamkafil/demo:1.7 /home/ec2-user/workspace/mypipeline/webapp/target"
         }
     }
     }
