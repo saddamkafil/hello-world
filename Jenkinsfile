@@ -26,6 +26,8 @@ pipeline
 	{
 	echo "hello"
 	sh 'docker --version'
+	sh 'ls -l'
+	sh 'pwd'
 	sh 'docker build -t sadamkafil/demo:1.10 .'
         }
     }
