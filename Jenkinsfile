@@ -25,7 +25,7 @@ pipeline
         steps
 	{
 	echo "hello"
-	docker --version
+	sh 'docker --version'
         }
     }
     }
