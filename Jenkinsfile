@@ -29,6 +29,7 @@ pipeline
 	sh 'ls -l'
 	sh 'pwd'
 	sh 'whoami'
+	sh 'sudo mv /home/ec2-user/workspace/tatk1/webapp/target/webapp.war /home/ec2-user/workspace/tatk1/'
 	sh 'sudo docker build -t sadamkafil/demo:1.10 .'
         }
     }
